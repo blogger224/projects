@@ -1,0 +1,54 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;1,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'poppins', sans-serif;
+  transition: all 0.2s linear;
+  border: none;
+  outline: none;
+}
+body{
+  background-color: #eee;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .counter{
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px opx;
+}
+.container .counter p{
+  text-align: center;
+  font-size: 10rem;
+  line-height: 1;
+  font-weight: 300;
+}
+.container .buttons{
+  text-align:center;
+  margin-top: 2rem;
+
+}
+.container .buttons button{
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.container .buttons button#add{
+  background-color: green;
+  color: #fff;
+}
+.container .buttons button#sub{
+  background-color: orangered;
+  color: #fff;
+}
